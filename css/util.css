@@ -13,8 +13,8 @@
 body, html {
 	font-family: Arial, sans-serif;
 	font-size: 15px;
+	font-size: 1.5vw;
 	color: #666666;
-
 	height: 100%;
 	background-color: #e6e6e6;
 	-webkit-box-sizing: border-box;

@@ -336,6 +336,7 @@ input.input100 {
 
 .wraptxt2 {
   margin: 1em;
+  hyphens: auto;
 }
 
 /*---------------------------------------------*/
