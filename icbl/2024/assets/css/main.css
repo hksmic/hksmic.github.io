@@ -1721,6 +1721,7 @@ input, select, textarea {
 		}
 
 		.image.logo {
+			width: 15%;
 			margin: 0em;
 		}
 
@@ -2468,6 +2469,11 @@ input, select, textarea {
 				overflow-x: hidden;
 			}
 
+			.image.logo {
+				width: 30%;
+				margin: 0em;
+			}
+
 		/* Box */
 
 			.box footer ul.actions li {
@@ -2717,6 +2723,11 @@ input, select, textarea {
 
 			h2, h3, h4, h5, h6 {
 				font-size: 1.25em;
+			}
+
+			.image.logo {
+				width: 50%;
+				margin: 0em;
 			}
 
 		/* Button */
