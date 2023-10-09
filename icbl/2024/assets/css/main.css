@@ -2295,7 +2295,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: #ffffff;
 		padding: 4em 0;
 	}
 
@@ -2458,6 +2458,7 @@ input, select, textarea {
 
 	#navPanel, #titleBar {
 		display: none;
+		background-color: #222;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2465,7 +2466,6 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				background-color: #222;
 				overflow-x: hidden;
 			}
 
