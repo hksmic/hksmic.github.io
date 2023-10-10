@@ -2273,7 +2273,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		background: #f7f7f7;
-		padding: 4em 0 4em 0;
+		padding: 4em 0 2em 0;
 	}
 
 		#main:before {
