@@ -1725,6 +1725,13 @@ input, select, textarea {
 			margin: 0em;
 		}
 
+		.image.cover {
+			max-width: 20%;
+			float: left;
+			margin-bottom: 1em;
+			margin-right: 2em;
+		}
+
 /* List */
 
 	ul {
@@ -2362,7 +2369,6 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 12pt;
 			}
-
 	}
 
 /* Large */
@@ -2728,6 +2734,13 @@ input, select, textarea {
 			.image.logo {
 				width: 50%;
 				margin: 0em;
+			}
+
+			.image.cover {
+				max-width: 100%;
+				padding: 3em;
+				margin-right: 2em;
+				margin-bottom: 1em;
 			}
 
 		/* Button */
