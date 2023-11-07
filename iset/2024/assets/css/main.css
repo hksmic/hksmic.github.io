@@ -2135,6 +2135,12 @@ input, select, textarea {
 					font-weight: 700;
 				}
 
+				#nav > ul > li.submission > a {
+					background: #2A4BDD;
+					color: #fff !important;
+					font-weight: 700;
+				}
+
 	.dropotron {
 		border-radius: 5px;
 		background-color: #252122;
