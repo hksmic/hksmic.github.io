@@ -1,3 +1,7 @@
+:root {
+    --theme-color-iset:#0384fc
+  }
+
 
 .image.logo {
     width: 15%;
@@ -31,18 +35,18 @@
 }
 
 
-.chosen-tab{
+.chosen-tab a{
     font-size: large;
     font-weight: 1000;
-    color:blue;
+    color:var(--theme-color-iset);
     text-decoration: underline;
     margin:0.5em;
 }
 
-.chosen-tab:visited{
+.chosen-tab a:visited{
     font-size: large;
     font-weight: 1000;
-    color:blue;
+    color:var(--theme-color-iset);
     text-decoration: underline;
 }
 
@@ -51,7 +55,7 @@
 #nav-bar-item a:hover{
     font-size: large;
     font-weight: 1000;
-    color:blue;
+    color:var(--theme-color-iset);
     text-decoration: underline;
 }
 
