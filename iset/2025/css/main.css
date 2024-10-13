@@ -2,6 +2,7 @@
 .image.logo {
     width: 15%;
     margin: 0em;
+    margin-bottom: 1em;
 }
 
 #header{
@@ -213,14 +214,16 @@
     text-justify: inter-word;
 }
 
-@media (max-width: 992px) {
-    .markdown-body{
-        padding: 15px;
-    }
-}
-
 
 @media screen and (max-width: 992px) {
+    
+    .markdown-body{
+        padding: 11px;
+        font-size:small;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+     
     #banner {
         padding: 3em 0;
         margin: 1em 0 0 0;
