@@ -26,20 +26,32 @@ title: Organisation | ISET 2025
 - Conference Chairs
 - Lap-Kei Lee, Hong Kong Metropolitan University, Hong Kong SAR, China
 - Pornthipa Ongkunaruk, Kasetsart University, Thailand
-- Programme Chairs
+
+</br>
+
+### Programme Chairs
 - Kwok Tai Chui, Hong Kong Metropolitan University, Hong Kong SAR, China
 - Kwan-Keung Ng, Shenzhen City Polytechnic, China
 - Chaiporn Jaikaeo, Kasetsart University, Thailand
 - Jitti Niramitranon, Kasetsart University, Thailand
-- Organizing Chairs
+
+</br>
+
+### Organizing Chairs
 - Yan Keung Hui, Vocational Training Council, Hong Kong SAR, China
 - Naraphorn Paoprasert, Kasetsart University, Thailand
 - Local Arrangement Chairs
 - Papis Wongchaisuwat, Kasetsart University, Thailand
 - Pornthep Anussornnitisarn, Kasetsart University, Thailand
-- Finance Chair
+
+</br>
+
+### Finance Chair
 - Kwan-Keung Ng, Shenzhen City Polytechnic, China
-- Publicity Chairs
+
+</br>
+
+### Publicity Chairs
 - Morris Jong, The Chinese University of Hong Kong, Hong Kong SAR, China
 - Leung-Pun Wong, Tung Wah College, Hong Kong SAR, China
 - Yinghui Shi, Central China Normal University, China
