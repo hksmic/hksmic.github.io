@@ -218,6 +218,20 @@
 }
 
 
+.profile {
+    display: flex;
+    align-items: flex-start; /* Aligns the content at the top */
+}
+
+.profile-photo {
+    margin-right: 20px; /* Adds space between the photo and the info */
+}
+
+.profile-info {
+    flex-grow: 1; /* Ensures the info section takes up the remaining space */
+}
+
+
 @media screen and (max-width: 992px) {
     
     .markdown-body{
@@ -324,5 +338,20 @@
 
     #show-menu-logo-conditional-reverse{
         display:none;
+    }
+
+    .profile {
+        flex-direction: column; /* Stacks the photo on top of the name and description */
+        align-items: center; /* Centers the content vertically */
+    }
+
+    .profile-photo {
+        margin-right: 0; /* Removes the margin when the photo is on top */
+        margin-bottom: 20px; /* Adds space between the photo and the info when the photo is on top */
+    }
+
+    .profile-info {
+        flex-grow: 0; /* Ensures the info section does not take up the remaining space when stacked */
+        text-align: justify; /* Centers the text when the photo is on top */
     }
 }
