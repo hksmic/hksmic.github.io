@@ -218,6 +218,12 @@
     text-justify: inter-word;
 }
 
+.keynote-card{
+    border-left: var(--theme-color-iset) 10px solid;
+    padding-left: 12px;
+}
+
+
 
 .profile {
     display: flex;
