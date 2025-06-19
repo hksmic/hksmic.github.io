@@ -239,6 +239,26 @@
 }
 
 
+#programme-table{
+    background: var(--theme-color-iset);
+}
+
+#programme-table-title{
+    font-weight: bold;
+}
+
+
+.auther-entry{
+    list-style-type: none;  
+    list-style-position: inside; 
+    padding-left: 0;
+}
+
+.authers-name{
+    font-style:italic;
+}
+
+
 
 @media screen and (max-width: 992px) {
     
