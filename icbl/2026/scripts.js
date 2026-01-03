@@ -14,25 +14,22 @@ function loadComponents() {
         </a>
         <ul class="main__ul">
             <li><a href="index.html">Home</a></li>
-            <li><a href="dates.html">Important Dates</a></li>
-            <li><a href="#">Calls</a>
-                <ul class="dropdown">
-                    <li><a href="#">Track 1</a></li>
-                    <li><a href="#">Track 2</a></li>
-                    <li><a href="#">Track 3</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Submissions</a></li>
-            <li><a href="#">Venue/Local</a>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Keynote</a></li>
+            <li><a href="#">Programme</a></li>
+            <li><a href="#">Organization</a></li>
+            <li><a href="#">Committee</a></li>    
+            <li><a href="#">Awards</a></li>        
+            <li><a href="#">Venue</a>
             <ul class="dropdown">
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="#">Item 2</a></li>
-                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Transportation</a></li>
+                <li><a href="#">Accommodation</a></li>
             </ul>
             </li>
-            <li><a href="#">Organization</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Sponsoring</a></li>
+
+            <li><a href="#">Proceedings</a></li>
+            <li><a href="#">Contacts</a></li>
             <li><a href="#" class="link-btn">Paper Submission</a></li>
         </ul>
     </nav>
@@ -42,7 +39,7 @@ function loadComponents() {
 
     footer = `
     <footer>
-        <p>© Copyright 2025. Conferece Website Template </p>
+        <p>Copyright © 2026 The Organization Committee of ICBL 2026. All rights reserved. </p>
     </footer>
     `
 

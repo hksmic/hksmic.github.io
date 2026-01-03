@@ -65,6 +65,7 @@ nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 16px;
+    color: black;
     transition: background-color 0.3s;
 }
 
@@ -244,35 +245,23 @@ main {
 
 }
 
+
+.content-inner {
+    display: flex;
+    width: 55%;
+    margin-right: 20px;
+    text-align: justify;
+
+}
+
 .content-text p {}
 
 .sponsors {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     height: auto;
     padding: 45px 0px;
 }
 
-.sponsors div {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 60%;
-}
 
-.sponsors h3 {
-    font-size: 35px;
-    padding: 20px 0px;
-}
-
-.sponsors img {
-    width: 20%;
-    max-height: 60px;
-    max-width: 200px;
-    margin: 25px 20px;
-}
 
 main h1 {
     font-size: 48px;
