@@ -1,7 +1,7 @@
 :root {
   --icbl-color: #2fca00;
   --icbl-color-hover: rgba(47, 202, 0, 0.3);
-  --icbl-color-text: rgb(28, 120, 0);
+  --icbl-color-text: rgb(14, 61, 0);
 }
 
 * {
@@ -213,6 +213,7 @@ main {
     display: flex;
     width: 55%;
     margin-right: 20px;
+    align-self: flex-start;
 }
 
 .content-right {
@@ -431,13 +432,12 @@ main p {
     }
 
     nav ul {
-        background-color: #fafafa;
+        background-color: #fcfcfc;
         display: none;
         position: fixed;
-        top: 60px;
-        right: 50px;
-        width: 180px;
-        padding: 6px;
+        top: 90px;
+        left: 0;
+        width: 100vw;
         border-radius: 5px;
     }
 
@@ -478,6 +478,7 @@ main p {
     .content-left {
         width: 90%;
         margin: 10px 0;
+        align-self: auto;
     }
 
     .content-right {

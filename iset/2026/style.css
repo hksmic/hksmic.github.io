@@ -432,13 +432,12 @@ main p {
     }
 
     nav ul {
-        background-color: #fafafa;
+        background-color: #fcfcfc;
         display: none;
         position: fixed;
-        top: 60px;
-        right: 50px;
-        width: 180px;
-        padding: 6px;
+        top: 90px;
+        left: 0;
+        width: 100vw;
         border-radius: 5px;
     }
 
@@ -479,7 +478,7 @@ main p {
     .content-left {
         width: 90%;
         margin: 10px 0;
-        align-self: auto;
+        align-self: flex-start;
     }
 
     .content-right {
