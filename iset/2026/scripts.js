@@ -5,7 +5,7 @@ function loadComponents() {
     // to avoid duplication across multiple pages.
     
     header = `
-    <header>
+    <header style="position: sticky; top: 0; z-index: 1000;">
     <nav>
         <a href="index.html">
             <div class="logo">
@@ -33,7 +33,7 @@ function loadComponents() {
             <li><a href="#">Organization</a></li>
             <li><a href="#">Program</a></li>
             <li><a href="#">Sponsoring</a></li>
-            <li><a href="#" class="link-btn">Registration</a></li>
+            <li><a href="#" class="link-btn">Paper Submission</a></li>
         </ul>
     </nav>
     <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>

@@ -9,12 +9,14 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px; /* Offset for sticky menu */
+    scroll-padding-top: 90px;
+    /* Offset for sticky menu */
 }
 
 #header {
     top: 0;
     position: sticky;
+    z-index: 9999;
 }
 
 header {
@@ -26,6 +28,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1000;
 }
 
 nav {
@@ -33,6 +36,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-width: 80%;
+    z-index: 1000;
 }
 
 nav ul {
@@ -45,7 +49,8 @@ nav ul {
 }
 
 nav ul li {
-    position: relative; /* Required for dropdown positioning */
+    position: relative;
+    /* Required for dropdown positioning */
     margin: 0 10px;
 }
 
@@ -53,12 +58,17 @@ nav ul li a {
     display: flex;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 16px;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #f2f2f2;
+    background-color: rgba(3, 200, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .link-btn {
@@ -76,9 +86,11 @@ nav ul li a:hover {
 
 /* Dropdown Menu */
 nav ul li ul.dropdown {
-    display: none; /* Hide dropdown initially */
+    display: none;
+    /* Hide dropdown initially */
     position: absolute;
-    top: 100%; /* Position below parent <li> */
+    top: 100%;
+    /* Position below parent <li> */
     left: 0;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -88,7 +100,8 @@ nav ul li ul.dropdown {
 }
 
 nav ul li ul.dropdown li {
-    width: 150px; /* Set a fixed width for dropdown items */
+    width: 150px;
+    /* Set a fixed width for dropdown items */
 }
 
 nav ul li ul.dropdown li a {
@@ -103,7 +116,8 @@ nav ul li ul.dropdown li a:hover {
 
 /* Show Dropdown on Hover */
 nav ul li:hover>ul.dropdown {
-    display: block; /* Show dropdown when hovering over parent <li> */
+    display: block;
+    /* Show dropdown when hovering over parent <li> */
 }
 
 footer {
@@ -115,7 +129,8 @@ footer {
     align-items: center;
 }
 
-footer a, footer p  {
+footer a,
+footer p {
     color: #eee;
     font-size: 12px;
     text-align: center;
@@ -146,12 +161,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: calc(100vh - 90px - 40px); /* Subtracts header and footer heights */
+    min-height: calc(100vh - 90px - 40px);
+    /* Subtracts header and footer heights */
 }
 
 .cover {
     display: flex;
-    height: calc(100vh - 90px); /* subtract menu height */
+    height: calc(100vh - 90px);
+    /* subtract menu height */
     align-items: center;
     justify-content: left;
     padding-left: 25px;
@@ -159,13 +176,18 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
+    z-index: 0;
 }
 
 .cover-content {
     max-width: 50%;
     padding: 22px 22px;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 5px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+
 
     display: flex;
     flex-direction: column;
@@ -178,12 +200,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 90px - 40px); /* Subtract header and footer */
     padding: 45px 0px;
 }
 
 .content-left {
-    height: 100%;
     display: flex;
     width: 55%;
     margin-right: 20px;
@@ -192,26 +212,32 @@ main {
 .content-right {
     height: 100%;
     display: flex;
-    width: 30%;
+    vertical-align: top;
+    width: 20%;
+    align-self: flex-start;
+
+
 }
+
 
 .content-text {
     display: flex;
     flex-direction: column;
+    text-align: justify;
     width: 100%;
     padding: 22px 22px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
 
-    /* Scroll */
-    flex: 1;
-    overflow-y: auto;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
-.content-text p {
-    
-}
+.content-text p {}
 
 .sponsors {
     display: flex;
@@ -344,7 +370,8 @@ main p {
     display: flex;
     justify-content: left;
 }
-.table tr{
+
+.table tr {
     line-height: 30px;
 }
 
@@ -356,7 +383,7 @@ main p {
 
 .content-box-small {
     display: flex;
-    width:40%;
+    width: 40%;
     flex-direction: column;
     padding: 0px 20px 20px 20px;
     background-color: #fff;
@@ -390,13 +417,13 @@ main p {
         position: relative;
         flex-direction: column;
     }
-    
+
     .box-icon {
         display: flex;
         top: 10px;
         right: 20px;
     }
-    
+
     nav ul {
         background-color: #fafafa;
         display: none;
@@ -432,7 +459,7 @@ main p {
     .cover-content {
         max-width: 90%;
     }
-    
+
     .content-box-small {
         width: 100%;
     }
@@ -450,6 +477,7 @@ main p {
     .content-right {
         width: 90%;
         margin: 10px 0;
+        align-self: auto;
     }
 
 }
