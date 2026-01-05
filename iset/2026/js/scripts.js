@@ -1,3 +1,8 @@
+  function triggerModal() {
+    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    myModal.show();
+  }
+
 
 function loadComponents() {
     // This workaround loads the header and the footer, 
@@ -9,7 +14,7 @@ function loadComponents() {
     <nav>
         <a href="index.html">
             <div class="logo">
-                <img src="assets/photos/logo.png" alt="Conference Logo" height="60px">
+                <img src="assets/logos/iset_logo.svg" alt="Conference Logo" height="60px">
             </div>
         </a>
         <ul class="main__ul">
@@ -30,21 +35,37 @@ function loadComponents() {
 
             <li><a href="#">Proceedings</a></li>
             <li><a href="#">Contacts</a></li>
-            <li><a href="#" class="link-btn">Paper Submission</a></li>
+            <li><a href="#" class="link-btn">Call for Papers</a></li>
         </ul>
     </nav>
     <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>
     </header>
     `
 
-    footer = `
-    <footer>
-        <p>Copyright © 2026 The Organization Committee of ICBL 2026. All rights reserved. </p>
-    </footer>
+        header_now = `
+    <header style="position: sticky; top: 0; z-index: 1000;">
+    <nav>
+        <a href="index.html">
+            <div class="logo">
+                <img src="assets/logos/iset_logo.svg" alt="Conference Logo" height="60px">
+            </div>
+        </a>
+        <ul class="main__ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="organization.html">Organization</a></li>
+            <li><a href="#">Committee</a></li>          
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="index.html#content" class="link-btn">Call for Papers</a></li>
+        </ul>
+    </nav>
+    <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>
+    </header>
     `
 
-    document.getElementById('header').innerHTML = header;
-    document.getElementById('footer').innerHTML = footer;
+
+    document.getElementById('header').innerHTML = header_now;
+
 
     // responsive menu
     document.querySelector('#menu').addEventListener('click', ()=>{

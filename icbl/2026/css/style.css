@@ -1,7 +1,7 @@
 :root {
-  --iset-color: #0056d6;
-  --iset-color-hover: #0056d68c;
-  --iset-color-text: #002051;
+  --icbl-color: #2fca00;
+  --icbl-color-hover: rgba(47, 202, 0, 0.3);
+  --icbl-color-text: rgb(14, 61, 0);
 }
 
 * {
@@ -70,7 +70,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: var(--iset-color-hover);
+    background-color: var(--icbl-color-hover);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.2px);
@@ -79,7 +79,7 @@ nav ul li a:hover {
 }
 
 .link-btn {
-    background-color: var(--iset-color);
+    background-color: var(--icbl-color);
     color: #fff;
     font-weight: bold;
     border-radius: 16px;
@@ -88,7 +88,7 @@ nav ul li a:hover {
 }
 
 .link-btn:hover {
-    background-color: var(--iset-color);
+    background-color: var(--icbl-color);
 }
 
 /* Dropdown Menu */
@@ -179,7 +179,7 @@ main {
     align-items: center;
     justify-content: left;
     padding-left: 25px;
-    background-image: url("assets/photos/peaking1.jpg");
+    background-image: url("../assets/photos/peaking1.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -208,6 +208,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 45px 0px;
+    width: 100%;
 }
 
 .content-left {
@@ -245,12 +246,21 @@ main {
 
 }
 
+.content-text-plain {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 100%;
+    padding: 22px 22px;
+}
+
+
 
 .content-inner {
     display: flex;
+    flex-direction: column;
     width: 55%;
     margin-right: 20px;
-    align-self: flex-start;
     text-align: justify;
 
 }
@@ -263,9 +273,10 @@ main {
 }
 
 
+
 main h1 {
     font-size: 48px;
-    color: var(--iset-color-text);
+    color: var(--icbl-color-text);
 }
 
 main h2 {
@@ -467,13 +478,22 @@ main p {
     .content-left {
         width: 90%;
         margin: 10px 0;
-        align-self: flex-start;
+        align-self: auto;
     }
 
     .content-right {
         width: 90%;
         margin: 10px 0;
         align-self: auto;
+    }
+
+        
+    .content-inner {
+        display: flex;
+        width: 85%;
+        margin-right: 10px;
+        align-self: auto;
+        text-align: justify;
     }
 
 }
