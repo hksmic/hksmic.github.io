@@ -544,12 +544,12 @@ main p {
     -webkit-backdrop-filter: blur(18px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.25);
 
-    box-shadow: 0 8px 32px rgba(47, 202, 0, 0.251);
+    box-shadow: 0 6px 12px rgba(47, 202, 0, 0.251);
     transition: all 0.35s ease;
 }
 
 .glass-card:hover {
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    /* box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35); */
     transform: translateY(-4px);
 }
 
@@ -577,80 +577,97 @@ main p {
 /* Fee text gradient */
 .fee {
     font-weight: 600;
-background: #00FF88;
-background: linear-gradient(to left, #00FF88 0%, #7FFFD4 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+}
 
-    /* Feature rows */
-    .feature-row,
-    .feaure-row {
-        /* keep both spellings to avoid breaking your HTML */
-        padding: 6px 0;
-        color: #000;
-        font-size: 0.9rem;
-        display: flex;
-        align-items: center;
-    }
+/* Feature rows */
+.feature-row,
+.feaure-row {
+    /* keep both spellings to avoid breaking your HTML */
+    padding: 6px 0;
+    color: #000;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
 
-    .feature {
-        font-weight: 300;
-        background: linear-gradient(to right, #000000 0%, #333333 100%);
+.feature {
+    font-weight: 300;
+
+}
+
+/* Highlight NOT included */
+.feature-row .excluded,
+.feaure-row .excluded {
+    color: #d9534f;
+    font-weight: 600;
+}
+
+    .feature-list,
+    .feature-list li {
+        list-style: none;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        background: #000000;
+        background: linear-gradient(to left, #000000 0%, #747474 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    } ;
+
+/* ------------------------------- */
+/* RESPONSIVE BEHAVIOR */
+/* ------------------------------- */
+
+/* Medium screens (tablets) */
+@media (max-width: 900px) {
+    .glass-card {
+        flex: 1 1 100%;
+        max-width: 600px;
     }
 
-    /* Highlight NOT included */
-    .feature-row .excluded,
-    .feaure-row .excluded {
-        color: #d9534f;
-        font-weight: 600;
+    .reg-title {
+        font-size: 1.7rem;
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+    .glass-card {
+        padding: 20px;
+        border-radius: 16px;
     }
 
-    /* ------------------------------- */
-    /* RESPONSIVE BEHAVIOR */
-    /* ------------------------------- */
-
-    /* Medium screens (tablets) */
-    @media (max-width: 900px) {
-        .glass-card {
-            flex: 1 1 100%;
-            max-width: 600px;
-        }
-
-        .reg-title {
-            font-size: 1.7rem;
-        }
+    .glass-card h4 {
+        font-size: 1.2rem;
     }
 
-    /* Small screens (phones) */
-    @media (max-width: 480px) {
-        .glass-card {
-            padding: 20px;
-            border-radius: 16px;
-        }
-
-        .glass-card h4 {
-            font-size: 1.2rem;
-        }
-
-        .fee-row {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 4px;
-            font-size: 0.95rem;
-        }
-
-        .fee {
-            font-size: 1rem;
-        }
-
-        .feature-row,
-        .feaure-row {
-            font-size: 0.85rem;
-        }
-
-        .reg-title {
-            font-size: 1.5rem;
-        }
+    .fee-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        font-size: 0.95rem;
     }
+
+    .fee {
+        font-size: 1rem;
+    }
+
+    .feature-list,
+    .feature-list li {
+        list-style: none;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        background: #000000;
+        background: linear-gradient(to left, #000000 0%, #747474 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } ;
+
+
+    .reg-title {
+        font-size: 1.5rem;
+    }
+}
