@@ -20,7 +20,6 @@ function loadComponents() {
         <ul class="main__ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Keynote</a></li>
             <li><a href="#">Programme</a></li>
             <li><a href="#">Organization</a></li>
             <li><a href="#">Committee</a></li>    
@@ -54,7 +53,6 @@ function loadComponents() {
         <ul class="main__ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="keynote.html">Keynote</a></li>
             <li><a href="organization.html">Organization</a></li>
             <li><a href="committee.html">Committee</a></li>
             <li><a href="contact.html">Contacts</a></li>

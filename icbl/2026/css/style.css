@@ -775,13 +775,17 @@ main p {
     margin-left: calc((100% - (75% + 20px)) / 2);
 }
 
-.keynote-entry {
-    display: flex;
-    gap: 25px;
+.keynote-grid {
     width: 55%;
     margin-left: calc((100% - (75% + 20px)) / 2);
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.keynote-entry {
+    width: 100%;
+    margin-left: 0;
 }
 
 .keynote-entry .content-text,
@@ -793,18 +797,21 @@ main p {
 
 .keynote-profile-col {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 28%;
-    flex-shrink: 0;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
 }
 
 .keynote-profile-card {
     width: 100%;
     margin-left: 0;
-    margin-right: auto;
+    margin-right: 0;
     align-items: flex-start;
-    text-align: justify;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 22px 20px 20px;
 }
 
 .keynote-photo {
@@ -818,16 +825,32 @@ main p {
 }
 
 .keynote-speaker-name {
-    margin-top: 8px;
+    margin: 4px 0 6px;
     text-align: left;
+    line-height: 1.35;
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.01em;
 }
 
 .keynote-speaker-title {
-    color: #555;
-    text-align: left;
-    font-size: 13px;
-    line-height: 20px;
-    margin: 3px 0;
+    color: #525e69;
+    text-align: center;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin: 0;
+    max-width: 33ch;
+    letter-spacing: 0.01em;
+}
+
+.keynote-profile-card .keynote-speaker-title:first-of-type {
+    color: #2f3d4a;
+    font-weight: 600;
+}
+
+.keynote-profile-card .keynote-speaker-title + .keynote-speaker-title {
+    color: #6a7480;
+    font-size: 0.86rem;
 }
 
 .keynote-bio-divider {
@@ -870,39 +893,43 @@ main p {
 }
 
 @media only screen and (max-width: 1024px) {
-    .keynote-entry {
-        flex-direction: column;
+    .keynote-grid {
         width: 90%;
         margin-left: 0;
-        gap: 18px;
-    }
-
-    .keynote-profile-col {
-        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
 
     .keynote-profile-card {
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
         text-align: center;
-        gap: 18px;
+        gap: 10px;
     }
 
     .keynote-photo {
-        margin: 0;
+        margin: 0 auto 12px;
         flex-shrink: 0;
     }
 
     .keynote-speaker-name,
     .keynote-speaker-title {
-        text-align: center;
+        text-align: left;
     }
 
     .keynote-header,
+    .keynote-grid,
     .keynote-divider {
         width: 90%;
         margin-left: 0;
     }
+
+
+        .keynote-entry .content-text,
+.keynote-entry .content-text-plain,
+.keynote-entry p,
+.keynote-entry h3 {
+    text-align: center;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -957,14 +984,15 @@ main p {
     }
 
     .keynote-header,
-    .keynote-entry,
+    .keynote-grid,
     .keynote-divider {
         width: 94%;
         margin-left: 0;
     }
 
-    .keynote-entry {
+    .keynote-grid {
         gap: 14px;
+        grid-template-columns: 1fr;
     }
 
     .keynote-profile-col,
@@ -997,4 +1025,11 @@ main p {
     .reg-card-container {
         gap: 16px;
     }
+
+        .keynote-entry .content-text,
+.keynote-entry .content-text-plain,
+.keynote-entry p,
+.keynote-entry h3 {
+    text-align: center;
+}
 }
