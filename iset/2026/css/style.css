@@ -1013,8 +1013,9 @@ main p {
     .keynote-grid,
     .keynote-entry,
     .keynote-divider {
-        width: 94%;
-        margin-left: 0;
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .keynote-grid {
@@ -1050,6 +1051,22 @@ main p {
     }
 
     .keynote-speaker-name {
+        text-align: center;
+    }
+
+    .keynote-entry .content-text,
+    .keynote-entry .content-text-plain,
+    .keynote-entry p,
+    .keynote-entry h3,
+    .keynote-bio,
+    .keynote-description-card p {
+        text-align: center;
+    }
+
+    .keynote-header,
+    .keynote-header .content-text-plain,
+    .keynote-header h2,
+    .keynote-header p {
         text-align: center;
     }
 
