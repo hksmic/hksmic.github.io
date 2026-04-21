@@ -709,7 +709,7 @@ main p {
 /* ------------------------------- */
 
 /* Medium screens (tablets) */
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .glass-card {
         flex: 1 1 100%;
         max-width: 600px;
@@ -778,9 +778,9 @@ main p {
 }
 
 .keynote-header {
-    width: 60%;
+    width: 55%;
     align-self: flex-start;
-    margin-left: 20%;
+    margin-left: calc((100% - (75% + 20px)) / 2);
 }
 
 .keynote-grid {
@@ -798,6 +798,7 @@ main p {
     grid-template-columns: minmax(320px, 1fr) minmax(380px, 1.45fr);
     gap: 24px;
     align-items: stretch;
+    isolation: isolate;
     padding: 0;
     border-radius: 0;
     background: transparent;
@@ -826,6 +827,7 @@ main p {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    overflow: hidden;
     align-items: center;
     text-align: left;
     display: flex;
@@ -836,6 +838,8 @@ main p {
     border: none;
     border-radius: 0;
     box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
 }
 
 .keynote-photo {
