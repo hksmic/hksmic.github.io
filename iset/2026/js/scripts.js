@@ -56,6 +56,7 @@ function loadComponents() {
             <li><a href="keynote.html">Keynotes</a></li>
             <li><a href="organization.html">Organization</a></li>
             <li><a href="#">Committee</a></li>          
+            <li><a href="venue.html">Venue</a></li>
             <li><a href="contact.html">Contacts</a></li>
             <li><a href="https://cmt3.research.microsoft.com/isedtech2026" class="link-btn" target="_blank">Paper Submission</a></li>
         </ul>
