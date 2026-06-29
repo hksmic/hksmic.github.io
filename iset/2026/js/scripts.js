@@ -55,6 +55,7 @@ function loadComponents() {
             <li><a href="about.html">About</a></li>
             <li><a href="keynote.html">Keynotes</a></li>
             <li><a href="workshop.html">Workshop</a></li>
+            <li><a href="programme.html">Programme</a></li>
             <li><a href="organization.html">Organization</a></li>
             <li><a href="#">Committee</a></li>          
             <li><a href="venue.html">Venue</a></li>
