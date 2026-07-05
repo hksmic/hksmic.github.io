@@ -1,0 +1,137 @@
+ISET 2026 Parallel Sessions		
+"Each presentation will be 10 minutes, followed by 5 minutes of Q & A."		
+Session	Paper Title	
+Session 1	GenAI in Programming & STEM Education	
+	Teaching Software Engineering with LLM and MCP Integration: From Classroom to Industry Practice	
+	"Chen, Kehui; Keung, Jacky; Li, Weining; Shao, Xiangbing; Li, Yishu; Ma, Xiaoxue*"	
+	From Fixes to Learning: Knowledge-Augmented Hierarchical Feedback for Programming Practice	
+	"Cao, Yuchen; Wang, Yifei; Keung, Jacky; Zhang, Jingyu*"	
+	Automated Generation of Geometry Proof Problems Based on Vector Identities and Large Language Models	
+	"Li, Lei; Li, Jiajun; Zhang, Jiaying; Zheng, Jiaxin; Yue, Weidong; Peng, Xicheng*"	
+	From Coders to Testers: A Lightweight Approach with Observable Faults in Programming Education	
+	"Liang, Zhanhua; Wei, Zhengyuan*; Ni, Wenjing; Chan, W.K."	
+	Construction and Practice of a Self-Driven Learning Ecosystem for Teaching Programming Design	
+	"Luan, Junfeng; Yu, Dongxiao; Cui, Xuefeng; Cai, Xiaojun; Yang, Zhen*; Shen, Zhaoyan; Zhao, Mengyng; Zhang, Zhaorong"	
+Session 2	AI for Language & Communication Skills	
+	Beyond Total Scores: Differential Patterns of AR-Supported Project-Based and Lecture-Based Learning across Cognitive Levels in Foreign Language Learning	
+	"Yu, Tianrun; Zhang, Xu; Cai, Su*"	
+	"Exploring the Relationships Among Need for Cognition, GenAI-Assisted Writing Self-Efficacy and Evaluating Strategies in EFL Writing"	
+	"Jiang, Michael Yi-Chao*; Shao, Sanki Zuquan; Chen, Siyao; Shen, Bin; Jong, Morris Siu-Yung"	
+	Under AI-Generated Contexts: The Influence of Static and Dynamic Types on Students' Creative Writing Performance	
+	"Peng, Xian; Wang, Xiaoyu; Fu, Jiaxin; Song, Mengyuan; Ding, Yuxin; Jin, Yanyan*"	
+	AI chatbots and English learning: effects on learners' motivation and self_regulated learning	
+	"Zhang, Xueying*; Tang, William Ko-Wai ; Wang, Jinge"	
+	Designing an AI-Driven Protocol to Enhance ESP Writing: A Mixed-Method Study on Request Email Writing	
+	"Lu, Shufei*; Chen, Yijun; Chen, Xi; Feng, Yin"	
+Session 3	Teacher Development & AI Integration	
+	"AI-Assisted Learning in Higher Education: A Comparative Study of Usage Behavior, Ethical Awareness, and Academic Outcomes"	
+	"Ongcunaruk , Wisute; Ongkunaruk, Pornthipa*; Kusumastuti, Adhi"	
+	Reconstructing Teacher AI Literacy for the Generative AI Era: A Grounded Theory Study Based on Human-AI Collaborative Simulation	
+	"Sun, Henan; Yan, Jianjian; Chang, Yongmei*"	
+	"How Generative AI Supports Teachers' Instructional Practice: A Review of Processes, Mechanisms, and Implications"	
+	"Xuan, Fang; Li, Xiaoxi ;  Jiang , Xinchen; Chen, Zijiao ;  Wei, Xiaodong*"	
+	Generative AI Empowering Primary and Secondary School Teachers: Construction and Empirical Application of a Literacy Cultivation Model	
+	"Yan, Yingqi; Li, Min; Liu, Wenting; Liu, Jing*"	
+	Conceptual Model for Professional Readiness in the GenAI Era: Focus on Assessment Design	
+	"Hossain, Bellal*; Kadel, Rajan ; Zou, Zhao "	
+Session 4	Learning Analytics & Assessment Design	
+	Research on Intelligent Monitoring of College Classroom Teaching Quality Based on AI and Multimodal Behavior Analysis	
+	"Jiaxin Liu*, Jingrong Huang, Songqing Xu, Hui Li, Zhan Chen"	
+	Feedback Mechanism and Strategies of Pedagogical Agents for Fostering Problem-Solving Competence	
+	"Liu, Xiaoyi; Lu, Guoqing*"	
+	Dynamic Evidence Collection Ecosystem for Assessment Integrity and Authentic Competence	
+	"Kadel, Rajan*; Hossain, Bellal; Shailendra, Samar; Naeem, Bushra"	
+	Mapping Group Use of an LLM-Mediated Feedback System: AI Help-Seeking Orientation and Artifact-Process Participation in GIFT	
+	"Du, Mukun; Xie, Haoran*; Qin, Si Zhao"	
+	Generative AI-Based Problem-Solving Teaching Model: A New Pathway for Cultivating Students' Feedback Literacy	
+	"Liu, Chunxia; Wang, Sai; Guo, Dingxin*"	
+Session 5	Collaborative & Project-Based Learning	
+	A Study on Changes in University Students' Higher-Order Thinking Under the Influence of Task Difficulty and Peer-Assessment Grouping Strategies in Maker Education	
+	"Yin, Man; Hu, Qihui*"	
+	Cross-institutional approach to enhancing student interaction and bridging complexity in Food Molecular Biology	
+	"Amakye, William Kwame; Wang, Min; Lin, Wensha; Ren, Jiaoyan*"	
+	Constructing a Smart and Ethical Learning Ecosystem for Food Biochemistry: Integrating Generative AI and Value Education	
+	"Wang, Min; Amakye, William Kwame; Lin, Wensha; Yuan, Erdong; Ren, Jiaoyan*"	
+	"The Biot-Savart Law: A Playground for Integrating PBL, Spaced Learning, and AI in Early Engineering Education"	
+	"Momox, Ernesto*"	
+	Research on the Design of Resolution Strategies for Learners' Cognitive Conflict in Collaborative Learning	
+	"Yang, Chongyang*; Lin, Zitong; Xu, Wei"	
+Session 6	K-12 Innovation & Inclusive Education	
+	Design and Validation of an Interactive Teaching Model for Primary School Robotics Education to Enhance Classroom Interactions	
+	"Su, Qing*; Pan, MingLong; Liu, Jingyi"	
+	"AI- and Technology-Enhanced Learning in Very Young Children: Evidence from Two Experiments on Cognitive, Behavioral, and Emotional Engagement"	
+	"Shek, Lok Yiu; Chan, Yee Wan; Ma, Will*"	
+	Design and Application of a Blended Collaborative Learning Model in Rural Primary Schools	
+	"Zhang, Qianyu "	
+	Using Digital-Resource-Enhanced Worksheets to Promote Minority Rural Students' Achievement and Classroom Engagement in Classical Chinese Poetry Learning in Western China	
+	"Song, Yu;  Ma, Beihua; Yang, Qi ; Guo, Shaoqing*"	
+	A Network Analytics Approach to Gendered Motivation: Informing the Design of Future Distance Learning Platforms	
+	"Zhang, Fa*; Xia, Yuyan; Jia, Yuchao; Wang, Yu"	
+Session 7	GenAI in Programming & STEM Education	
+	The Impact of Integrating Pair Programming into Unplugged Programming Instruction on Programming Knowledge Acquisition and Classroom Engagement	
+	"Zhang, Xiao; Su, Qing; Zhang, Shuting*"	
+	Impacts of Histories and Models on LLM Grading: A Study in Advanced Software Engineering Courses	
+	"Zhou, Qilin*; Wang, Zhuo; Li, Yue; Chan, Wing-Kwong"	
+	Design and Implementation of a Student Programming Assistance System Based on Large Language Models	
+	"Xie, Wen*"	
+	Exploring an AI-Empowered Experimental Teaching System for Algorithm Design and Analysis	
+	"Song, Heping*"	
+	Unpacking Reverse Engineering Pedagogy in Human-GenAI Collaborative Programming: Behavioral Patterns and Cognitive Engagement of Primary School Students	
+	"Ma, Xuechun; Zhu, Shiyun; Li, Cuixin; Xu, Jie; Li, Yan*"	
+Session 8	AI for Language & Communication Skills	
+	The Effect of a Human-AI Collaboration Protocol on Persuasive Speaking: An Investigation in EFL Classrooms	
+	"Zhou, Xiangru; Yao, Haoyin; Xie, Yuansheng; Feng, Yin*"	
+	Differences in Human and AI Discourse in Collaborative Learning: Evidence from Linguistic Features	
+	"Liu, Danyang; Liu, Qingtang*; Miao, Enhui; Pan, Zhuan; Chang, Yubei"	
+	Beyond Content-Level Features: Leveraging Student Communicative Signals for LLM-Based Tutoring Strategy Classification	
+	"Liu, Jiaqi; Chui, Kwok Tai*; Lee, Lap-Kei; Chi, Hao Ran; Ng, Kwan-Keung; Wong, Leung Pun"	
+	"Exploring the Impact of LLMs-based Peer Agent on Student Perceptions, Epistemic Patterns, and Learning Performance in Inquiry-Based Discussion"	
+	"Wang, Yadong; Lu, Guoqing*; Yang, Qin; Ba, Shen; Zhang, Min; Wang, Lu"	
+	The Impact of Generative Artificial Intelligence as an Intelligent Learning Scaffold on Metacognition: A Second-order Review	
+	"Yang, Xiwen; Fan, Minsheng*; Zhang, Jingyi"	
+Session 9	Teacher Development & AI Integration	
+	The Development of a Task-based Contextualized Assessment Tool to Measure the Project-Based Teaching Competence for Primary and Secondary School Teachers	
+	"Ma, Fulong; Guo, Shaoqing*"	
+	Understanding How Pre-Service Science Teachers Developed Critical Thinking Through the Use of Generative AI: A Network Analytic Approach	
+	"Li, Shiyan; Cui, Tianli; Long, Taotao*"	
+	Capturing Pre-Service Science Teachers' Cognitive Presence Patterns in a GenAI-Integrated Project-Based Learning: An Epistemic Network Analysis	
+	"Cui, Tianli; Li, Shiyan; Long, Taotao*"	
+	"How group facilitators affect pre-service teachers' learning performances, motivation, and behavioral patterns in a blended learning environment: An Epistemic Network Analysis approach"	
+	"Wanrong, Guo*; Nan, Li; Yuexing , Jin; Xin,  Yan"	
+	Controlling Large Language Model-Assisted Learning: A Risk-Aware Pedagogical Framework	
+	"Liao, Yihan; Keung, Jacky; Zhang, Jingyu; Sun, Yicheng; Li, Yishu; Ma, Xiaoxue*"	
+Session 10	Learning Analytics & Assessment Design	
+	Fostering Critical Thinking by Integrating Case-Based Learning and Generative AI in a Closed-Loop Reflective Learning Environment	
+	"Yu, Hi Kuen; Keung, Jacky; Wong, Man On; Sun, Yicheng*; Xiao, Tianqing"	
+	Getting Started with Generative AI for Learning: Students' Initial Perceptions and Experiences	
+	"Pun, Cecilia; Wong, Billy*; Ng, Raymond"	
+	Construction and Application Research of Educational Agent Design Framework Based on Knowledge Building Theory	
+	"Ma, Fulong; Guo, Shaoqing*"	
+	Constructing a Performance Evaluation Index System for China's National Smart Education Platform	
+	"Zhang, Jing; Zhang, Lele; Zhao, Yaqian; Zheng, Xin*"	
+	The impact of affective pedagogical agent on students' learning effects: A meta-analysis	
+	"Yu, Pengfei; Wang, Xizhe*; Yang, Yuting; Huang, Changqin"	
+Session 11	Collaborative & Project-Based Learning	
+	Instructional Design and Practice of AI-Enhanced Work-Integrated Learning for Postgraduate Students via a Low-Code Intelligent Customer Service System	
+	"Zhang, Chao; Fan, Minsheng*"	
+	Project-Driven and AI-Empowered Teaching Innovation and Practice for the Course Chemical Process Simulation and Optimization	
+	"Zhou, Rujin ; Sun, Jin*; Wang, Li ; Zeng, Xingye; Shan, Shufeng ; Lin, Cunhui "	
+	An Empirical Study on the Current Status of Learning Engagement and Influencing Factors Among University Students in the Physical Education Institution Within a Blended Learning Context	
+	"Wei, Dingzhi; Wang, Qingyun; Dong, Qian*"	
+	A Case-Informed Framework for AI-Enhanced Digital Textbooks in Blended Higher Education	
+	"Yuan, Fen*; Jiang, XinChen"	
+	Learning by Doing… Reloaded: Experiential Education in the Era of Digital Technologies	
+	"Zopiatis, Anastasios*"	
+		
+	Session Chair:	
+Session 1	Will	
+Session 2	Ye Jia	
+Session 3	Steven	
+Session 4	John Hui	
+Session 5	Pun	
+Session 6	Will	
+Session 7	Pun	
+Session 8	Steven	
+Session 9	John Hui	
+Session 10	Ye Jia	
+Session 11	Will	
