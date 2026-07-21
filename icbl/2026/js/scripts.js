@@ -60,7 +60,7 @@ function loadComponents() {
             <li><a href="committee.html">Committee</a></li>
             <li><a href="venue.html">Venue</a></li>
             <li><a href="contact.html">Contacts</a></li>
-            <li><a href="​https://link.springer.com/book/10.1007/978-981-92-3761-6" target="_blank" class="link-btn">Conference Proceedings</a></li>
+            <li><a href="https://link.springer.com/book/10.1007/978-981-92-3761-6" target="_blank" class="link-btn">Conference Proceedings</a></li>
         </ul>
     </nav>
     <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>
