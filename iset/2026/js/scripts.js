@@ -60,7 +60,6 @@ function loadComponents() {
             <li><a href="committee.html">Committee</a></li>          
             <li><a href="venue.html">Venue</a></li>
             <li><a href="contact.html">Contacts</a></li>
-            <li><a href="https://cmt3.research.microsoft.com/isedtech2026" class="link-btn" target="_blank">Paper Submission</a></li>
         </ul>
     </nav>
     <div id='menu' class='box-icon'><i class='bx bx-menu'></i></div>
